@@ -1,0 +1,219 @@
+body {
+  padding-top: 82px;
+  font-family: "Raleway",sans-serif;
+}
+
+nav {
+  background-color: white;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+}
+
+.navbar img {
+  margin: 3px;
+}
+
+.nav-item {
+  padding: 0 20px;
+  letter-spacing: 3px;
+}
+
+.jumbotron {
+  position: relative;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+  color: white;
+  background-color: #808285;
+}
+
+.jumbo-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(media/hands.jpg!d);
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(3px);
+  opacity: 0.35;
+}
+
+.jumbotron-heading {
+  font-size: 3em;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.jumbotron-text {
+  font-size: 1.25em;
+  text-align: center;
+  padding: 0 150px;
+  position: relative;
+}
+
+.second-paragraph {
+  font-size: 1.25em;
+  text-align: center;
+  position: relative;
+}
+
+.icons-row {
+  margin-top: 30px;
+}
+
+.services-icons {
+  width: 80px;
+  padding-bottom: 10px;
+}
+
+.icons {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.row {
+  margin-bottom: 3rem;
+}
+
+.icon {
+  font-size: 60px;
+}
+
+.icon-name {
+  font-weight: lighter;
+}
+
+.col-md-8 {
+  text-align: left;
+}
+
+.claim-process {
+  padding: 0px 40px;
+  position: relative;
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+  color: white;
+  background-color: #981b1e;
+  padding: 30px;
+}
+
+.claim-process h5 {
+  padding-top: 20px;
+}
+
+.claim-process-steps {
+  margin-top: 3rem;
+  padding: 0 60px;
+}
+
+.claim-process-steps span {
+  font-weight: lighter;
+}
+
+.faq-section {
+  padding: 4rem 4rem 0 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+
+.faq-section h2 {
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.faq-section span {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+.faq-section p {
+  padding-bottom: 2rem;
+  text-align: left;
+}
+
+.faq-section li {
+  font-weight: bold;
+}
+
+.faq-section ul {
+  list-style-type: none;
+}
+
+.contact-details {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 1rem;
+  margin-bottom: 2em;
+}
+
+.contact-details strong {
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 3rem;
+  text-align: center;
+  background-color: #bcbdc0;
+  margin-bottom: 0;
+}
+
+.address-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.address-info p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.contact-form {
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-bottom: 2rem;
+}
+
+.form-area {
+  width: 100%;
+}
+
+.form-area h3 {
+  margin-bottom: 1rem;
+}
+
+.phone-contact, .email-contact {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  justify-content: center;
+}
+
+.phone-contact {
+  margin-bottom: 1rem;
+}
+
+.email-contact {
+  margin-bottom: 2rem;
+}
+
+.phone-contact i, .email-contact i {
+  margin-right: 1rem;
+}
+
+.bottom-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 0.75rem;
+  padding: 0.75rem 0;
+}
